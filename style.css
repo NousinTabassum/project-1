@@ -1,0 +1,96 @@
+.container {
+    width: 700px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div {
+    width: 400px;
+    height: 120px;
+    background-color: darkgoldenrod;
+    position: relative;
+}
+
+.circle-side {
+    width: 90px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+}
+
+#circle-leftside {
+    left: 0;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 20%;
+
+}
+
+#circle-rightside {
+    right: 0;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 20%;
+
+}
+
+.circle-mid {
+    width: 195px;
+    height: 120px;
+    background-color: black;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    position: absolute;
+    top: 65%;
+}
+
+#midcirle-1 {
+    left: 10px;
+}
+
+#midcirle-2 {
+    right: 10px;
+}
+
+
+#rectangle-lg {
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    left: 32%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#rectangle-sm {
+    width: 35px;
+    height: 30px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.circle-sm {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 5%;
+
+}
+
+#half-circle7 {
+    left: 52%;
+}
+
+#half-circle8 {
+    right: 53%;
+}
